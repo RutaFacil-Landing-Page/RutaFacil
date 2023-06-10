@@ -1,0 +1,349 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-height: 50px; /* Ajusta la altura deseada */
+    background-color: #996fcc; /* Color de fondo */
+}
+
+.logo img {
+    height: 75px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    color: #000;
+}
+
+.bar {
+    display: none;
+}
+
+.container__cover{
+    width: 97.3%;
+    height: 600px;
+
+}
+.cover{
+    max-width: 700px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.container__cover {
+    display: flex;
+    align-items: center;
+    background-color: #e9eff0;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    width: 900px;
+    margin-right: 100px;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.img {
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.img img {
+    max-width: 600px;
+    height: auto;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Ajustes de estilo opcionales */
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 30px;
+}
+
+.title-aboutus {
+    text-align: center;
+    padding: 2% 0;
+    background-color: rgb(190, 151, 196);
+    color: white;
+    font-size: 24px;
+}
+.container__cover_aboutus{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: #e9eff0;
+}
+.cover-aboutus{
+    text-align: center;
+    padding: 2% 0;
+    font-size: 24px;
+}
+.cover-aboutus .text-aboutus{
+    padding: 2% 0;
+    font-size: 24px;
+}
+.cover-aboutus .text-aboutus h1{
+    font-size: 38px;
+}
+.cover-aboutus .text-aboutus p{
+    margin-left: 450px;
+    font-size: 21px;
+    margin-top: 40px;
+    text-align: justify;
+    width: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9eff0;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+.left,
+.right {
+    flex-basis: 50%;
+    width: 300px;
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.title-app {
+    text-align: center;
+    padding: 2% 0;
+    background-color: rgb(190, 151, 196);
+    color: white;
+    font-size: 24px;
+    margin-top: 300px;
+}
+.container__cover_app{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: #e9eff0;
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9eff0;
+}
+
+.image {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.image img {
+    margin-top: 20px;
+    max-width: 80%;
+    height: auto;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.text-left,
+.text-right {
+    flex-basis: 50%;
+    width: 300px;
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-left {
+    flex: 1;
+    margin-right: 100px;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.text-left p{
+    font-size: 40px;
+    text-align: justify;
+}
+
+.text-right {
+    flex: 1;
+    margin-right: 100px;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.text-right p{
+    font-size: 40px;
+    text-align: justify;
+}
+
+.download-section {
+    background-color: #e9eff0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.download-buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.play-store-btn img,
+.app-store-btn img {
+    width: 150px;
+}
+
+footer {
+    background-color: #5f539b;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container-footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section,
+.social-section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p1 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.social-buttons .btn {
+    margin-right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.social-buttons img {
+    width: 30px;
+}
